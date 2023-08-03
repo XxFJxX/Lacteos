@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyApp.Productos"
+             Title="Productos">
+    
+    <Grid BackgroundColor="White" RowDefinitions=".05*,.94*,.06*">
+        <Label FontSize="16"
+               HorizontalOptions="Center"
+               Text ="Productos"
+               TextColor="Black"
+               VerticalOptions="Center"/>
+
+
+
+        <ScrollView Grid.Row="1">
+            <StackLayout>
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="lacteos.png"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text=""  
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="botella.jpg"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text=""  
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="quesillo.jpg"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text=""  
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="queso_capita.jpg"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text=""  
+                       TextColor="Black"
+                       FontSize="20"/>
+                
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="queso_duro_blando,jpg"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text=""  
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="queso_duro_viejo.jpg"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text=""  
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="queso_fresco.jpg"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text=""  
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="queso_kraft.jpg"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text=""  
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="queso_mozzarella.jpg"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text=""  
+                       TextColor="Black"
+                       FontSize="20"/>
+
+
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="queso_parmesano.jpg"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text=""  
+                       TextColor="Black"
+                       FontSize="20"/>
+
+
+            </StackLayout>
+        </ScrollView>
+
+
+        <Grid Grid.Row="2" 
+              Margin="3,0,3,0"
+              HeightRequest="50"
+              VerticalOptions="End">
+            <Border BackgroundColor="Green"
+                    Stroke="GreenYellow"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    StrokeThickness="1">
+                <Grid ColumnDefinitions="*,*,*"
+                       RowSpacing="1">
+
+
+                    <Button x:Name="Nosotros"
+                            Clicked="Nosotros_Clicked"
+                            BackgroundColor="Green"
+                            Text="Nosotros"
+                            TextColor="White"
+                            />
+
+                    <Button Grid.Column="1"
+                            x:Name="Productos1"
+                            Clicked="Productos1_Clicked"
+                            BackgroundColor="Green"
+                            Text="Productos"
+                            TextColor="White"
+                            />
+
+                    <Button Grid.Column="2"
+                            x:Name="Pedidos"
+                            Clicked="Pedidos_Clicked"
+                            BackgroundColor="Green"
+                            Text="Pedidos"
+                            TextColor="White"
+                            />
+
+                </Grid>
+            </Border>
+        </Grid>
+
+    </Grid>
+</ContentPage>

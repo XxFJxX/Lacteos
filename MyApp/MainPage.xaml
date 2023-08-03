@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyApp.MainPage">
+
+    
+
+
+
+    <Grid BackgroundColor="White" RowDefinitions=".05*,.94*,.06*">
+        <Label FontSize="16"
+               HorizontalOptions="Center"
+               Text ="Nosotros"
+               TextColor="Black"
+               VerticalOptions="Center"/>
+
+
+
+        <ScrollView Grid.Row="1">
+                <StackLayout>
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="lacteos.png"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text="Lacteos la vaquita pilot es una empresa dedicada ala venta de quesos de mejor calidad en el pais ofreciendo calidad al mejor precio con nuestro personal especializado desde la produccion de los productos hasta la venta y entrega de ellos"  
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="vaca.jpg"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text="Con la mejor disponivilidad de quesos al mejor precio ofreciendo calidad 100% de la vaca"  
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="Green"
+                HeightRequest="350"
+                Stroke="GreenYellow"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="queso_fresco.jpg"/>
+                </Border>
+
+                <Label  Margin="25,25,25,25"
+                       Text="Ofreciendo todo tipo de quesos nacionales asi como exclusivos com una amplia variedad de quesos ,cremas y mas"  
+                       TextColor="Black"
+                       FontSize="20"/>
+
+
+            </StackLayout>
+            </ScrollView>
+   
+        
+        <Grid Grid.Row="2" 
+              Margin="3,0,3,0"
+              HeightRequest="50"
+              VerticalOptions="End">
+            <Border BackgroundColor="Green"
+                    Stroke="GreenYellow"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    StrokeThickness="1">
+                <Grid ColumnDefinitions="*,*,*"
+                       RowSpacing="1">
+
+
+                    <Button x:Name="Nosotros"
+                            Clicked="Nosotros_Clicked"
+                            BackgroundColor="Green"
+                            Text="Nosotros"
+                            TextColor="White"
+                            />
+
+                    <Button Grid.Column="1"
+                            x:Name="Productos"
+                            Clicked="Productos_Clicked"
+                            BackgroundColor="Green"
+                            Text="Productos"
+                            TextColor="White"
+                            />
+
+                    <Button Grid.Column="2"
+                            x:Name="Pedidos"
+                            Clicked="Pedidos_Clicked"
+                            BackgroundColor="Green"
+                            Text="Pedidos"
+                            TextColor="White"
+                            />
+
+                </Grid>
+            </Border>
+        </Grid>
+              
+    </Grid>
+
+    
+
+</ContentPage>
