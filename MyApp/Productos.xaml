@@ -15,19 +15,9 @@
 
         <ScrollView Grid.Row="1">
             <StackLayout>
-                <Border
-                Grid.RowSpan="3"
-                BackgroundColor="Green"
-                HeightRequest="350"
-                Stroke="GreenYellow"
-                StrokeShape="RoundRectangle 20,20,20,20"
-                StrokeThickness="3"
-                WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="lacteos.png"/>
-                </Border>
 
-                <Label  Margin="25,25,25,25"
-                       Text=""  
+                <Label  Margin="40,25,25,25"
+                       Text="Botella de crema"  
                        TextColor="Black"
                        FontSize="20"/>
 
@@ -42,8 +32,8 @@
                     <Image Aspect="AspectFill" Source="botella.jpg"/>
                 </Border>
 
-                <Label  Margin="25,25,25,25"
-                       Text=""  
+                <Label  Margin="40,25,25,25"
+                       Text="Quesillo"  
                        TextColor="Black"
                        FontSize="20"/>
 
@@ -58,8 +48,8 @@
                     <Image Aspect="AspectFill" Source="quesillo.jpg"/>
                 </Border>
 
-                <Label  Margin="25,25,25,25"
-                       Text=""  
+                <Label  Margin="40,25,25,25"
+                       Text="Queso Capita"  
                        TextColor="Black"
                        FontSize="20"/>
 
@@ -74,11 +64,11 @@
                     <Image Aspect="AspectFill" Source="queso_capita.jpg"/>
                 </Border>
 
-                <Label  Margin="25,25,25,25"
-                       Text=""  
+                <Label  Margin="40,25,25,25"
+                       Text="Queso duro blando"  
                        TextColor="Black"
                        FontSize="20"/>
-                
+
                 <Border
                 Grid.RowSpan="3"
                 BackgroundColor="Green"
@@ -87,11 +77,11 @@
                 StrokeShape="RoundRectangle 20,20,20,20"
                 StrokeThickness="3"
                 WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="queso_duro_blando,jpg"/>
+                    <Image Aspect="AspectFill" Source="queso_duro_blando.jpg"/>
                 </Border>
 
-                <Label  Margin="25,25,25,25"
-                       Text=""  
+                <Label  Margin="40  ,25,25,25"
+                       Text="Queso duro viejo"  
                        TextColor="Black"
                        FontSize="20"/>
 
@@ -106,8 +96,8 @@
                     <Image Aspect="AspectFill" Source="queso_duro_viejo.jpg"/>
                 </Border>
 
-                <Label  Margin="25,25,25,25"
-                       Text=""  
+                <Label  Margin="40,25,25,25"
+                       Text="Queso fresco"  
                        TextColor="Black"
                        FontSize="20"/>
 
@@ -122,8 +112,8 @@
                     <Image Aspect="AspectFill" Source="queso_fresco.jpg"/>
                 </Border>
 
-                <Label  Margin="25,25,25,25"
-                       Text=""  
+                <Label  Margin="40,25,25,25"
+                       Text="Queso kraft"  
                        TextColor="Black"
                        FontSize="20"/>
 
@@ -138,8 +128,8 @@
                     <Image Aspect="AspectFill" Source="queso_kraft.jpg"/>
                 </Border>
 
-                <Label  Margin="25,25,25,25"
-                       Text=""  
+                <Label  Margin="40,25,25,25"
+                       Text="Queso Mozzarella"  
                        TextColor="Black"
                        FontSize="20"/>
 
@@ -154,8 +144,8 @@
                     <Image Aspect="AspectFill" Source="queso_mozzarella.jpg"/>
                 </Border>
 
-                <Label  Margin="25,25,25,25"
-                       Text=""  
+                <Label  Margin="40,25,25,25"
+                       Text="Queso parmesano"  
                        TextColor="Black"
                        FontSize="20"/>
 

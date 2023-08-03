@@ -15,23 +15,42 @@
 
         <ScrollView Grid.Row="1">
             <StackLayout>
-                <Border
-                Grid.RowSpan="3"
-                BackgroundColor="Green"
-                HeightRequest="350"
-                Stroke="GreenYellow"
-                StrokeShape="RoundRectangle 20,20,20,20"
-                StrokeThickness="3"
-                WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="lacteos.png"/>
-                </Border>
-
-                <Label  Margin="25,25,25,25"
-                       Text=""  
-                       TextColor="Black"
-                       FontSize="20"/>
-
                
+                <Grid BackgroundColor="White"
+                    ColumnDefinitions="*,*"
+                      RowDefinitions=".30*,.70*"
+                      RowSpacing="4">
+
+                    <Label Text="2465-4576"
+                           TextColor="Orange"
+                           FontSize="50"/>
+
+                    <Label Grid.Column="1"
+                        Text="2465-4576"
+                           TextColor="Green"
+                           FontSize="50"/>
+
+                    <Label Grid.Row="1"
+                        Text="Servicio a domicilio disponible en zona urbana a nivel departamental"
+                           TextColor="Black"
+                           FontSize="30"
+                           VerticalOptions="Start"/>
+
+                    <Label Grid.Column="1"
+                        Grid.Row="1"
+                        Text="Lunes a Domingo
+                           
+                           8 AM - 6 PM"
+                           TextColor="Black"
+                           FontSize="30"
+                           Margin="15,15,15,15"/>
+
+      
+
+
+                </Grid>
+
+
 
             </StackLayout>
         </ScrollView>
