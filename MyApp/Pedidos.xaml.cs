@@ -29,7 +29,7 @@ public partial class Pedidos : ContentPage
 
     private void Comprar_Clicked(object sender, EventArgs e)
     {
-        var comprar = new Comprar();
+        var comprar = new Productocompra();
         Application.Current.MainPage.Navigation.PushModalAsync(comprar);
     }
 }
