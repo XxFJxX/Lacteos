@@ -11,49 +11,114 @@
                TextColor="Black"
                VerticalOptions="Center"/>
 
+                <Grid Grid.Row="1"
+                    BackgroundColor="White"
+                      ColumnDefinitions="*,*"
+                      RowDefinitions=".30*,.40*,.30*"
+                      Margin="10"
+                      RowSpacing="1">
+
+                    <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
 
 
-        <ScrollView Grid.Row="1">
-            <StackLayout>
-               
-                <Grid BackgroundColor="White"
-                    ColumnDefinitions="*,*"
-                      RowDefinitions=".30*,.70*"
-                      RowSpacing="4">
-
-                    <Label Text="2465-4576"
+                    <Label Text="2465-
+                           4576"
                            TextColor="Orange"
-                           FontSize="50"/>
+                           FontSize="50"
+                           Margin="20"
+                           HorizontalOptions="Center" 
+                           VerticalOptions="Center" />
 
-                    <Label Grid.Column="1"
-                        Text="2465-4576"
+                    </Grid>
+
+
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label 
+                           Text="2465-
+                            4576"
                            TextColor="Green"
-                           FontSize="50"/>
+                           FontSize="50"
+                            Margin="20"
+                            HorizontalOptions="Center" 
+                           VerticalOptions="Center"/>
 
-                    <Label Grid.Row="1"
-                        Text="Servicio a domicilio disponible en zona urbana a nivel departamental"
+                    </Grid>
+
+
+                    <Grid  Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                <Label
+                           Text="Servicio a domicilio disponible en zona urbana"
                            TextColor="Black"
                            FontSize="30"
+                    Margin="20"
+                            HorizontalOptions="Start" 
                            VerticalOptions="Start"/>
 
-                    <Label Grid.Column="1"
-                        Grid.Row="1"
-                        Text="Lunes a Domingo
-                           
-                           8 AM - 6 PM"
+            </Grid>
+
+                    <Grid Grid.Column="1"
+                           Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+
+                        <Label 
+                           Text="Lunes a Domingo 8 AM - 6 PM"
                            TextColor="Black"
                            FontSize="30"
-                           Margin="15,15,15,15"/>
+                            Margin="20"
+                            HorizontalOptions="Start" 
+                           VerticalOptions="Start"/>
+                    </Grid>
 
-      
+            <Grid Grid.Row="2"
+                  VerticalOptions="Center">
+                
 
+                <Border 
+                    BackgroundColor="DarkOrange"
+                    Stroke="Orange"
+                    StrokeShape="RoundRectangle 10,10,10,10"
+                    StrokeThickness="1">
+                    
+                    <Button x:Name="Comprar"
+                            Clicked="Comprar_Clicked"
+                            Text="Comprar"
+                            BackgroundColor="DarkOrange"
+                           TextColor="White"
+                           FontSize="30"/>
+                </Border>
 
-                </Grid>
+            </Grid>
 
+        </Grid>
 
+        
 
-            </StackLayout>
-        </ScrollView>
 
 
         <Grid Grid.Row="2" 

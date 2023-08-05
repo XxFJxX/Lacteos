@@ -20,7 +20,7 @@
                 <StackLayout>
                 <Border
                 Grid.RowSpan="3"
-               BackgroundColor="DarkGreen"
+                BackgroundColor="DarkGreen"
                 HeightRequest="350"
                 Stroke="Green"
                 StrokeShape="RoundRectangle 20,20,20,20"

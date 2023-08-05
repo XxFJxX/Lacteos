@@ -1,3 +1,5 @@
+using Lacteo;
+
 namespace MyApp;
 
 public partial class Pedidos : ContentPage
@@ -23,5 +25,11 @@ public partial class Pedidos : ContentPage
     {
         var pedidos = new Pedidos();
         Application.Current.MainPage.Navigation.PushModalAsync(pedidos);
+    }
+
+    private void Comprar_Clicked(object sender, EventArgs e)
+    {
+        var comprar = new Comprar();
+        Application.Current.MainPage.Navigation.PushModalAsync(comprar);
     }
 }
