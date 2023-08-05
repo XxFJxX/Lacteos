@@ -17,156 +17,371 @@
             <StackLayout>
 
                 <Label  Margin="40,25,25,25"
-                       Text="Botella de crema"  
+                       Text="Productos que ofrecemos con sus categorias"  
+                       TextColor="Black"
+                       FontSize="40"/>
+                
+                <Label  Margin="40,25,25,25"
+                       Text="Quesos"  
+                       TextColor="Black"
+                       FontSize="50"/>
+
+                <Label  Margin="40,25,25,25"
+                       Text="Queso Duro Blando - Costo Libra: $ 3.80 "
                        TextColor="Black"
                        FontSize="20"/>
 
                 <Border
                 Grid.RowSpan="3"
-                BackgroundColor="Green"
+               BackgroundColor="DarkGreen"
                 HeightRequest="350"
-                Stroke="GreenYellow"
+                Stroke="Green"
                 StrokeShape="RoundRectangle 20,20,20,20"
                 StrokeThickness="3"
                 WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="botella.jpg"/>
+                    <Image Aspect="AspectFill" Source="quesoduroblando.png"/>
                 </Border>
 
                 <Label  Margin="40,25,25,25"
-                       Text="Quesillo"  
+                       Text="Queso Duro Viejo - Costo Libra: $ 6.00"
                        TextColor="Black"
                        FontSize="20"/>
 
                 <Border
                 Grid.RowSpan="3"
-                BackgroundColor="Green"
+                BackgroundColor="DarkGreen"
                 HeightRequest="350"
-                Stroke="GreenYellow"
+                Stroke="Green"
                 StrokeShape="RoundRectangle 20,20,20,20"
                 StrokeThickness="3"
                 WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="quesillo.jpg"/>
+                    <Image Aspect="AspectFill" Source="quesoduroviejo.png"/>
                 </Border>
 
                 <Label  Margin="40,25,25,25"
-                       Text="Queso Capita"  
+                       Text="Queso Rayado - Costo Libra: $ 3.80"
                        TextColor="Black"
                        FontSize="20"/>
 
                 <Border
                 Grid.RowSpan="3"
-                BackgroundColor="Green"
+                BackgroundColor="DarkGreen"
                 HeightRequest="350"
-                Stroke="GreenYellow"
+                Stroke="Green"
                 StrokeShape="RoundRectangle 20,20,20,20"
                 StrokeThickness="3"
                 WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="queso_capita.jpg"/>
+                    <Image Aspect="AspectFill" Source="quesorayado.png"/>
                 </Border>
 
                 <Label  Margin="40,25,25,25"
-                       Text="Queso duro blando"  
+                       Text="Quesillo - Costo Libra: $ 2.60"
                        TextColor="Black"
                        FontSize="20"/>
 
                 <Border
                 Grid.RowSpan="3"
-                BackgroundColor="Green"
+                BackgroundColor="DarkGreen"
                 HeightRequest="350"
-                Stroke="GreenYellow"
+                Stroke="Green"
                 StrokeShape="RoundRectangle 20,20,20,20"
                 StrokeThickness="3"
                 WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="queso_duro_blando.jpg"/>
-                </Border>
-
-                <Label  Margin="40  ,25,25,25"
-                       Text="Queso duro viejo"  
-                       TextColor="Black"
-                       FontSize="20"/>
-
-                <Border
-                Grid.RowSpan="3"
-                BackgroundColor="Green"
-                HeightRequest="350"
-                Stroke="GreenYellow"
-                StrokeShape="RoundRectangle 20,20,20,20"
-                StrokeThickness="3"
-                WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="queso_duro_viejo.jpg"/>
+                    <Image Aspect="AspectFill" Source="quesillo.png"/>
                 </Border>
 
                 <Label  Margin="40,25,25,25"
-                       Text="Queso fresco"  
+                       Text="Queso Mozzarella - Costo Libra: $ 2.95"
                        TextColor="Black"
                        FontSize="20"/>
 
                 <Border
                 Grid.RowSpan="3"
-                BackgroundColor="Green"
+                BackgroundColor="DarkGreen"
                 HeightRequest="350"
-                Stroke="GreenYellow"
+                Stroke="Green"
                 StrokeShape="RoundRectangle 20,20,20,20"
                 StrokeThickness="3"
                 WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="queso_fresco.jpg"/>
+                    <Image Aspect="AspectFill" Source="quesomozzarella.png"/>
                 </Border>
 
                 <Label  Margin="40,25,25,25"
-                       Text="Queso kraft"  
+                       Text="Queso Capita - Costo Libra: $ 4.00"
                        TextColor="Black"
                        FontSize="20"/>
 
                 <Border
                 Grid.RowSpan="3"
-                BackgroundColor="Green"
+                BackgroundColor="DarkGreen"
                 HeightRequest="350"
-                Stroke="GreenYellow"
+                Stroke="Green"
                 StrokeShape="RoundRectangle 20,20,20,20"
                 StrokeThickness="3"
                 WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="queso_kraft.jpg"/>
+                    <Image Aspect="AspectFill" Source="quesocapita.png"/>
                 </Border>
 
                 <Label  Margin="40,25,25,25"
-                       Text="Queso Mozzarella"  
+                       Text="Queso Kraft - Costo Libra: $ 2.50"
                        TextColor="Black"
                        FontSize="20"/>
 
                 <Border
                 Grid.RowSpan="3"
-                BackgroundColor="Green"
+                BackgroundColor="DarkGreen"
                 HeightRequest="350"
-                Stroke="GreenYellow"
+                Stroke="Green"
                 StrokeShape="RoundRectangle 20,20,20,20"
                 StrokeThickness="3"
                 WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="queso_mozzarella.jpg"/>
+                    <Image Aspect="AspectFill" Source="quesokraft.png"/>
                 </Border>
 
                 <Label  Margin="40,25,25,25"
-                       Text="Queso parmesano"  
+                       Text="Queso Parmesano - Costo Libra: $ 5.50"
                        TextColor="Black"
                        FontSize="20"/>
-
-
 
                 <Border
                 Grid.RowSpan="3"
-                BackgroundColor="Green"
+                BackgroundColor="DarkGreen"
                 HeightRequest="350"
-                Stroke="GreenYellow"
+                Stroke="Green"
                 StrokeShape="RoundRectangle 20,20,20,20"
                 StrokeThickness="3"
                 WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="queso_parmesano.jpg"/>
+                    <Image Aspect="AspectFill" Source="quesoparmesano.png"/>
                 </Border>
 
-                <Label  Margin="25,25,25,25"
-                       Text=""  
+                <Label  Margin="40,25,25,25"
+                       Text="Queso Fresco - Costo Libra: $ 2.75"
                        TextColor="Black"
                        FontSize="20"/>
 
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="quesofresco.png"/>
+                </Border>
+
+                
+
+                <Label  Margin="40,25,25,25"
+                       Text="Queso Crema"  
+                       TextColor="Black"
+                       FontSize="50"/>
+
+                <Label  Margin="40,25,25,25"
+                       Text="Queso Crema - Costo: $ 1.62"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+               BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="quesocrema.png"/>
+                </Border>
+
+                <Label  Margin="40,25,25,25"
+                       Text="Queso Crema Con Loroco - Costo: $ 1.62"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="quesocremaloroco.png"/>
+                </Border>
+
+                <Label  Margin="40,25,25,25"
+                       Text="Queso Crema Con Tocino - Costo: $ 1.62"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="quesocrematocino.png"/>
+                </Border>
+
+                <Label  Margin="40,25,25,25"
+                       Text="Queso Crema Con Chile Chipotle - Costo: $ 1.62"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="quesocremachilechipotle.png"/>
+                </Border>
+
+
+
+                <Label  Margin="40,25,25,25"
+                       Text="Crema"  
+                       TextColor="Black"
+                       FontSize="50"/>
+
+                <Label  Margin="40,25,25,25"
+                       Text="Crema de 95 G - 1/8 De Botella De Crema - Costo: $ 0.30"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="cremacentavos.png"/>
+                </Border>
+
+                <Label  Margin="40,25,25,25"
+                       Text=" Crema de 190 G - 1/4 De Botella De Crema - Costo: $ 1.00"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="cuartodecrema.png"/>
+                </Border>
+
+                <Label  Margin="40,25,25,25"
+                       Text="Botella De Crema - Costo: $ 3.00"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="botelladecrema.png"/>
+                </Border>
+
+
+
+                <Label  Margin="40,25,25,25"
+                       Text="Leches"
+                       TextColor="Black"
+                       FontSize="50"/>
+
+                <Label  Margin="40,25,25,25"
+                       Text="Leche Entera De 473 ML - Costo: $ 0.90"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="leche473ml.png"/>
+                </Border>
+
+                <Label  Margin="40,25,25,25"
+                       Text="Leche Entera De 750 ML - Costo: $ 1.33"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="leche750ml.png"/>
+                </Border>
+
+                <Label  Margin="40,25,25,25"
+                       Text="Leche Entera De 900 ML - Costo: $ 1.55"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="leche900ml.png"/>
+                </Border>
+
+                <Label  Margin="40,25,25,25"
+                       Text="Leche Entera Medio Galón - Costo: $ 3.25"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="mediogalondeleche.png"/>
+                </Border>
+
+                <Label  Margin="40,25,25,25"
+                       Text="Leche Entera 1 Galón - Costo: $ 6.10"
+                       TextColor="Black"
+                       FontSize="20"/>
+
+                <Border
+                Grid.RowSpan="3"
+                BackgroundColor="DarkGreen"
+                HeightRequest="350"
+                Stroke="Green"
+                StrokeShape="RoundRectangle 20,20,20,20"
+                StrokeThickness="3"
+                WidthRequest="350">
+                    <Image Aspect="AspectFill" Source="galondeleche.png"/>
+                </Border>
 
             </StackLayout>
         </ScrollView>

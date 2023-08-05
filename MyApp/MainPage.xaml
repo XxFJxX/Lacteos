@@ -20,9 +20,9 @@
                 <StackLayout>
                 <Border
                 Grid.RowSpan="3"
-                BackgroundColor="Green"
+               BackgroundColor="DarkGreen"
                 HeightRequest="350"
-                Stroke="GreenYellow"
+                Stroke="Green"
                 StrokeShape="RoundRectangle 20,20,20,20"
                 StrokeThickness="3"
                 WidthRequest="350">
@@ -36,9 +36,9 @@
 
                 <Border
                 Grid.RowSpan="3"
-                BackgroundColor="Green"
+                BackgroundColor="DarkGreen"
                 HeightRequest="350"
-                Stroke="GreenYellow"
+                Stroke="Green"
                 StrokeShape="RoundRectangle 20,20,20,20"
                 StrokeThickness="3"
                 WidthRequest="350">
@@ -52,13 +52,13 @@
 
                 <Border
                 Grid.RowSpan="3"
-                BackgroundColor="Green"
+                BackgroundColor="DarkGreen"
                 HeightRequest="350"
-                Stroke="GreenYellow"
+                Stroke="Green"
                 StrokeShape="RoundRectangle 20,20,20,20"
                 StrokeThickness="3"
                 WidthRequest="350">
-                    <Image Aspect="AspectFill" Source="queso_fresco.jpg"/>
+                    <Image Aspect="AspectFill" Source="quesofresco.png"/>
                 </Border>
 
                 <Label  Margin="25,25,25,25"
